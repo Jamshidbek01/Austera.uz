@@ -6,7 +6,7 @@
 }
 
 header {
-  background: rgba(0, 0, 0, 0.6) url(img/home.b.png) 0 0/100% auto no-repeat;
+  background: rgba(0, 0, 0, 0.6) url(../img/home.b.png) 0 0/100% auto no-repeat;
   max-width: 1350px;
   margin: 0 auto;
 }
@@ -494,7 +494,7 @@ header .background .home2 .button a:hover {
 }
 
 footer {
-  background: url(img/bgmask.png) 0 0/100% auto no-repeat;
+  background: url(../img/bgmask.png) 0 0/100% auto no-repeat;
   max-width: 1350px;
   margin: 0 auto;
 }
