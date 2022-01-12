@@ -712,7 +712,7 @@ footer .background .block8 .right form .button5 a:hover {
 }
 
 /* Media css */
-@media screen and (max-width: 1155px;) {
+@media screen and (max-width: 1155px) {
   header .wrap {
     max-width: 1020px;
   }
@@ -777,7 +777,7 @@ footer .background .block8 .right form .button5 a:hover {
   }
 }
 
-@media screen and (max-width: 1024px;) {
+@media screen and (max-width: 1024px) {
   header .background .home2 {
     padding-top: 100px;
     padding-bottom: 135px;
@@ -908,7 +908,7 @@ footer .background .block8 .right form .button5 a:hover {
   }
 }
 
-@media screen and (max-width: 768px;) {
+@media screen and (max-width: 768px) {
   header .wrap {
     max-width: 720px;
   }
@@ -1114,7 +1114,7 @@ footer .background .block8 .right form .button5 a:hover {
   }
 }
 
-@media screen and (max-width: 425px;) {
+@media screen and (max-width: 425px) {
   header {
     background: url(../img/pexels-cottonbro-4065864.jpg) 0 0/100% auto no-repeat;
   }
@@ -1293,7 +1293,7 @@ footer .background .block8 .right form .button5 a:hover {
   }
 }
 
-@media screen and (max-width: 375px;) {
+@media screen and (max-width: 375px) {
   header .wrap {
     max-width: 350px;
   }
