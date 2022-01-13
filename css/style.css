@@ -1298,22 +1298,38 @@ footer .background .block8 .right form .button5 a:hover {
     max-width: 350px;
   }
   .wrap .block3 {
-    max-width: 350px;
+    max-width: 360px;
   }
   .wrap .block4 {
     max-width: 350px;
   }
   .wrap .block4 .left img {
-    width: 365px;
+    width: 350px;
+    margin-right: 0;
+  }
+  .wrap .block3 .left p {
+    margin-right: 0;
+    max-width: 350px;
   }
   .block5 {
     max-width: 350px;
   }
   .block5 .left img {
-    width: 365px;
+    width: 350px;
+    margin-right: 0;
+  }
+  .block7 {
+    max-width: 350px;
   }
   .block6 .blok1 {
     padding: 55px 35px;
+  }
+  .block7 .blokk1 {
+    margin-left: 55px;
+  }
+  .block5 .right {
+    margin-right: 0;
+    text-align: justify;
   }
   footer .background .block8 {
     max-width: 350px;
@@ -1325,6 +1341,7 @@ footer .background .block8 .right form .button5 a:hover {
     width: 340px;
   }
   .wrap .block3 .right img {
-    width: 370px;
+    width: 358px;
+    height: 230px;
   }
 }

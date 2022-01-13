@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header {
-  background: rgba(0, 0, 0, 0.6) url(img/home.b.png) 0 0/100% auto no-repeat;
+  background: rgba(0, 0, 0, 0.6) url(../img/home.b.png) 0 0/100% auto no-repeat;
     max-width: 1350px;
     margin: 0 auto;
     .wrap {
@@ -30,7 +30,7 @@ header {
                 margin-left: 10px;
                 font-size: 18px;
                 color: #fff;
-                text-decoration: none;
+                text-decoration: ;
                 img {
                     margin-left: 15px;
                     height: 15px;
@@ -125,7 +125,7 @@ header {
     }
 }
 .wrap {
-    background: url(img/background.png) 0 0/100% auto no-repeat;
+    background: url(../img/background.png) 0 0/100% auto no-repeat;
     max-width: 1350px;
     margin: 0 auto;
     .button1 {
@@ -365,7 +365,7 @@ header {
     }
 }
 footer {
-  background: url(img/bgmask.png) 0 0/100% auto no-repeat;
+  background: url(../img/bgmask.png) 0 0/100% auto no-repeat;
     max-width: 1350px;
     margin: 0 auto;
     .background {
@@ -1094,22 +1094,39 @@ header .home .menu {
     max-width: 350px;
   }
   .wrap .block3 {
-    max-width: 350px;
+    max-width: 360px;
   }
   .wrap .block4 {
     max-width: 350px;
   }
   .wrap .block4 .left img {
-    width: 365px;
+    width: 350px;
+    margin-right: 0;
+  }
+  .wrap .block3 .left p {
+    margin-right: 0;
+    // padding-right: 20px;
+    max-width: 350px;
   }
   .block5 {
     max-width: 350px;
   }
   .block5 .left img {
-    width: 365px;
+    width: 350px;
+    margin-right: 0;
+  }
+  .block7 {
+    max-width: 350px;  
   }
   .block6 .blok1 {
     padding: 55px 35px;
+  }
+  .block7 .blokk1 {
+    margin-left: 55px;
+  }
+  .block5 .right {
+    margin-right: 0;
+    text-align: justify;
   }
   footer .background .block8 {
     max-width: 350px;
@@ -1121,6 +1138,7 @@ header .home .menu {
     width: 340px;
   }
   .wrap .block3 .right img {
-    width: 370px;
+    width: 358px;
+    height: 230px;
   }
 }
