@@ -6,7 +6,7 @@
 }
 
 header {
-  background: rgba(0, 0, 0, 0.6) url(../img/home.b.png) 0 0/100% auto no-repeat;
+  background: url(../img/home.b.png) 0 0/100% auto no-repeat;
   max-width: 1350px;
   margin: 0 auto;
 }
@@ -174,13 +174,12 @@ header .background .home2 .button a:hover {
   line-height: 20px;
 }
 
-.wrap11 {
-  background: url(../img/background.png) 0 0/100% auto no-repeat;
+.wrap {
   max-width: 1350px;
   margin: 0 auto;
 }
 
-.wrap11 .button1 {
+.wrap .button1 {
   margin-top: 40px;
   text-align: center;
   -webkit-box-pack: center;
@@ -194,7 +193,7 @@ header .background .home2 .button a:hover {
   margin-bottom: 165px;
 }
 
-.wrap11 .button1 a {
+.wrap .button1 a {
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -207,12 +206,12 @@ header .background .home2 .button a:hover {
   background-color: #2ebaee;
 }
 
-.wrap11 .button1 a:hover {
+.wrap .button1 a:hover {
   background-color: #84cfe6;
   color: #000;
 }
 
-.wrap11 .block3 {
+.wrap .block3 {
   max-width: 1140px;
   margin: 0 auto;
   display: -ms-grid;
@@ -222,11 +221,11 @@ header .background .home2 .button a:hover {
   margin-bottom: 200px;
 }
 
-.wrap11 .block3 .left {
+.wrap .block3 .left {
   margin-top: 40px;
 }
 
-.wrap11 .block3 .left span {
+.wrap .block3 .left span {
   font-size: 30px;
   color: #242424;
   font-weight: bold;
@@ -234,18 +233,18 @@ header .background .home2 .button a:hover {
   display: block;
 }
 
-.wrap11 .block3 .left p {
+.wrap .block3 .left p {
   font-size: 16px;
   color: #878787;
   line-height: 25px;
 }
 
-.wrap11 .block3 .left .button2 {
+.wrap .block3 .left .button2 {
   margin-top: 40px;
   margin-bottom: 50px;
 }
 
-.wrap11 .block3 .left .button2 a {
+.wrap .block3 .left .button2 a {
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -258,17 +257,17 @@ header .background .home2 .button a:hover {
   background-color: #2ebaee;
 }
 
-.wrap11 .block3 .left .button2 a:hover {
+.wrap .block3 .left .button2 a:hover {
   background-color: #84cfe6;
   color: #000;
 }
 
-.wrap11 .block3 .right img {
+.wrap .block3 .right img {
   width: 730px;
   height: 400px;
 }
 
-.wrap11 .block4 {
+.wrap .block4 {
   max-width: 1140px;
   margin: 0 auto;
   display: -ms-grid;
@@ -277,17 +276,17 @@ header .background .home2 .button a:hover {
       grid-template-columns: 1fr 1fr;
 }
 
-.wrap11 .block4 .left img {
+.wrap .block4 .left img {
   width: 446px;
   height: 242px;
   margin-right: 250px;
 }
 
-.wrap11 .block4 .right {
+.wrap .block4 .right {
   margin-top: 10px;
 }
 
-.wrap11 .block4 .right span {
+.wrap .block4 .right span {
   font-size: 30px;
   color: #fff;
   font-weight: bold;
@@ -295,18 +294,18 @@ header .background .home2 .button a:hover {
   display: block;
 }
 
-.wrap11 .block4 .right p {
+.wrap .block4 .right p {
   font-size: 16px;
   color: #fff;
   line-height: 25px;
 }
 
-.wrap11 .block4 .right .button3 {
+.wrap .block4 .right .button3 {
   margin-top: 40px;
   margin-bottom: 50px;
 }
 
-.wrap11 .block4 .right .button3 a {
+.wrap .block4 .right .button3 a {
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -319,7 +318,7 @@ header .background .home2 .button a:hover {
   background-color: #fff;
 }
 
-.wrap11 .block4 .right .button3 a:hover {
+.wrap .block4 .right .button3 a:hover {
   background-color: #031fc0;
   color: #fff;
 }
@@ -840,9 +839,10 @@ footer .background .block8 .right form .button5 a:hover {
   }
   .wrap .block4 .right {
     margin-top: 0;
+    margin-right: 10px;
   }
   .wrap .block4 .right span {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
   .wrap .block4 .right p {
     line-height: 24px;
@@ -1190,6 +1190,9 @@ footer .background .block8 .right form .button5 a:hover {
         grid-template-rows: 1fr 1fr;
     max-width: 400px;
   }
+  .shakl {
+    background: none !important;
+  }
   .wrap .block3 .right img {
     width: 400px;
     height: 240px;
@@ -1296,6 +1299,7 @@ footer .background .block8 .right form .button5 a:hover {
 @media screen and (max-width: 375px) {
   header .wrap {
     max-width: 350px;
+    margin: 0 auto;
   }
   .wrap .block3 {
     max-width: 360px;

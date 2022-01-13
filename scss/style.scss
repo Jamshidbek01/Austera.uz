@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header {
-  background: rgba(0, 0, 0, 0.6) url(../img/home.b.png) 0 0/100% auto no-repeat;
+  background: url(../img/home.b.png) 0 0/100% auto no-repeat;
     max-width: 1350px;
     margin: 0 auto;
     .wrap {
@@ -124,8 +124,7 @@ header {
         }
     }
 }
-.wrap11 {
-    background: url(../img/background.png) 0 0/100% auto no-repeat;
+.wrap {
     max-width: 1350px;
     margin: 0 auto;
     .button1 {
@@ -628,6 +627,9 @@ footer {
     .block2 {
       max-width: 950px;
     }
+    .shakl {
+      // background: none !important;
+    }
     .block2 .card {
       width: 240px; 
       height: 250px;
@@ -676,12 +678,18 @@ footer {
     }
     .wrap .block4 .right {
       margin-top: 0;
+      margin-right: 10px;
     }
     .wrap .block4 .right span {
-      margin-bottom: 12px;
+      margin-bottom: 10px;
+      // color: #242424;
+    }
+    .wrap .block4 .right .button3 a {
+      // background-color: #2ebaee;
     }
     .wrap .block4 .right p {
       line-height: 24px;
+      // color: #878787;
     }
     .wrap .block4 .right .button3 {
       margin-top: 18px;
@@ -1002,6 +1010,9 @@ header .home .menu {
     grid-template-rows: 1fr 1fr;
     max-width: 400px;
   }
+  .shakl {
+    background: none !important;
+  }
   .wrap .block3 .right img {
     width: 400px;
     height: 240px;
@@ -1092,6 +1103,7 @@ header .home .menu {
 @media screen and (max-width: 375px) {
   header .wrap {
     max-width: 350px;
+    margin: 0 auto;
   }
   .wrap .block3 {
     max-width: 360px;
