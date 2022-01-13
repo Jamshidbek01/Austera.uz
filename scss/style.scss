@@ -124,7 +124,7 @@ header {
         }
     }
 }
-.wrap {
+:nth-child(2).wrap {
     background: url(../img/background.png) 0 0/100% auto no-repeat;
     max-width: 1350px;
     margin: 0 auto;

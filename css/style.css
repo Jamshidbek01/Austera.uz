@@ -174,13 +174,13 @@ header .background .home2 .button a:hover {
   line-height: 20px;
 }
 
-.wrap {
+:nth-child(2).wrap {
   background: url(../img/background.png) 0 0/100% auto no-repeat;
   max-width: 1350px;
   margin: 0 auto;
 }
 
-.wrap .button1 {
+:nth-child(2).wrap .button1 {
   margin-top: 40px;
   text-align: center;
   -webkit-box-pack: center;
@@ -194,7 +194,7 @@ header .background .home2 .button a:hover {
   margin-bottom: 165px;
 }
 
-.wrap .button1 a {
+:nth-child(2).wrap .button1 a {
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -207,12 +207,12 @@ header .background .home2 .button a:hover {
   background-color: #2ebaee;
 }
 
-.wrap .button1 a:hover {
+:nth-child(2).wrap .button1 a:hover {
   background-color: #84cfe6;
   color: #000;
 }
 
-.wrap .block3 {
+:nth-child(2).wrap .block3 {
   max-width: 1140px;
   margin: 0 auto;
   display: -ms-grid;
@@ -222,11 +222,11 @@ header .background .home2 .button a:hover {
   margin-bottom: 200px;
 }
 
-.wrap .block3 .left {
+:nth-child(2).wrap .block3 .left {
   margin-top: 40px;
 }
 
-.wrap .block3 .left span {
+:nth-child(2).wrap .block3 .left span {
   font-size: 30px;
   color: #242424;
   font-weight: bold;
@@ -234,18 +234,18 @@ header .background .home2 .button a:hover {
   display: block;
 }
 
-.wrap .block3 .left p {
+:nth-child(2).wrap .block3 .left p {
   font-size: 16px;
   color: #878787;
   line-height: 25px;
 }
 
-.wrap .block3 .left .button2 {
+:nth-child(2).wrap .block3 .left .button2 {
   margin-top: 40px;
   margin-bottom: 50px;
 }
 
-.wrap .block3 .left .button2 a {
+:nth-child(2).wrap .block3 .left .button2 a {
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -258,17 +258,17 @@ header .background .home2 .button a:hover {
   background-color: #2ebaee;
 }
 
-.wrap .block3 .left .button2 a:hover {
+:nth-child(2).wrap .block3 .left .button2 a:hover {
   background-color: #84cfe6;
   color: #000;
 }
 
-.wrap .block3 .right img {
+:nth-child(2).wrap .block3 .right img {
   width: 730px;
   height: 400px;
 }
 
-.wrap .block4 {
+:nth-child(2).wrap .block4 {
   max-width: 1140px;
   margin: 0 auto;
   display: -ms-grid;
@@ -277,17 +277,17 @@ header .background .home2 .button a:hover {
       grid-template-columns: 1fr 1fr;
 }
 
-.wrap .block4 .left img {
+:nth-child(2).wrap .block4 .left img {
   width: 446px;
   height: 242px;
   margin-right: 250px;
 }
 
-.wrap .block4 .right {
+:nth-child(2).wrap .block4 .right {
   margin-top: 10px;
 }
 
-.wrap .block4 .right span {
+:nth-child(2).wrap .block4 .right span {
   font-size: 30px;
   color: #fff;
   font-weight: bold;
@@ -295,18 +295,18 @@ header .background .home2 .button a:hover {
   display: block;
 }
 
-.wrap .block4 .right p {
+:nth-child(2).wrap .block4 .right p {
   font-size: 16px;
   color: #fff;
   line-height: 25px;
 }
 
-.wrap .block4 .right .button3 {
+:nth-child(2).wrap .block4 .right .button3 {
   margin-top: 40px;
   margin-bottom: 50px;
 }
 
-.wrap .block4 .right .button3 a {
+:nth-child(2).wrap .block4 .right .button3 a {
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -319,7 +319,7 @@ header .background .home2 .button a:hover {
   background-color: #fff;
 }
 
-.wrap .block4 .right .button3 a:hover {
+:nth-child(2).wrap .block4 .right .button3 a:hover {
   background-color: #031fc0;
   color: #fff;
 }
